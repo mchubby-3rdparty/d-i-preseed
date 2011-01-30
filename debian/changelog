@@ -1,3 +1,9 @@
+preseed (1.49) UNRELEASED; urgency=low
+
+  * Make preseed/url translatable
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 30 Jan 2011 17:28:54 +0100
+
 preseed (1.48) unstable; urgency=low
 
   [ Updated translations ]
