@@ -1,6 +1,10 @@
 preseed (1.49) UNRELEASED; urgency=low
 
+  [ Christian Perrier ]
   * Make preseed/url translatable
+
+  [ Joey Hess ]
+  * Update auto-install/defaultroot for wheezy.
 
  -- Christian Perrier <bubulle@debian.org>  Sun, 30 Jan 2011 17:28:54 +0100
 
