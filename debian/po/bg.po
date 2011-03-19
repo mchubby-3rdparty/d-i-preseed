@@ -10,20 +10,20 @@
 #
 # Ognyan Kulev <ogi@fmi.uni-sofia.bg>, 2004, 2005, 2006.
 # Nikola Antonov <nikola@linux-bg.org>, 2004.
-# Damyan Ivanov <dmn@debian.org>, 2006, 2007, 2008, 2009, 2010.
+# Damyan Ivanov <dmn@debian.org>, 2006, 2007, 2008, 2009, 2010, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: bg\n"
 "Report-Msgid-Bugs-To: preseed@packages.debian.org\n"
 "POT-Creation-Date: 2011-01-30 18:05+0000\n"
-"PO-Revision-Date: 2010-08-10 23:44+0300\n"
+"PO-Revision-Date: 2011-03-19 11:47+0200\n"
 "Last-Translator: Damyan Ivanov <dmn@debian.org>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: binary\n"
-"Plural-Forms: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Type: error
 #. Description
@@ -89,10 +89,8 @@ msgstr "Изтегляне на файл с предварителни наст�
 #. Description
 #. :sl3:
 #: ../network-preseed.templates:2001
-#, fuzzy
-#| msgid "Load debconf preconfiguration file"
 msgid "Location of initial preconfiguration file:"
-msgstr "Зареждане на файл с предварителни настройки"
+msgstr "Местоположение на файла с предварителни настройки:"
 
 #. Type: string
 #. Description
@@ -103,6 +101,10 @@ msgid ""
 "preconfiguration file (which can in turn pull in other files). To do that, "
 "you need to provide a (perhaps partial) URL."
 msgstr ""
+"За извършване на автоматична инсталация е необходимо предоставянето на файл "
+"с предварителни настройки (който може да съдържа препратки към други "
+"файлове). За целта е необходимо да предоставите (вероятно частичен) адрес на "
+"файла."
 
 #. Type: string
 #. Description
@@ -118,6 +120,14 @@ msgid ""
 "  floppy://preseed.cfg\n"
 "  file:///hd-media/kiosk/./preseed.cfg"
 msgstr ""
+"Стойността може да е просто име на машината, на която се съхраняват "
+"файловете с настройки, а може и да е пълен адрес. Например:\n"
+"  intra\t\t[тези три примера са еквивалентни за example.com]\n"
+"  intra.example.com\n"
+"  http://intra.example.com/d-i/.lenny/preseed.cfg\n"
+"  http://192.168.0.1/~phil/test47.txt\n"
+"  floppy://preseed.cfg\n"
+"  file:///hd-media/kiosk/./preseed.cfg"
 
 #. Type: string
 #. Description
@@ -127,6 +137,9 @@ msgid ""
 "For fully automated installs, preseed/url should itself be preseeded (via "
 "kernel command line, DHCP, or syslinux.cfg on customised media)"
 msgstr ""
+"За изцяло автоматично инсталиране е необходимо указването на адреса на файла "
+"с предварителни настройки (на командния ред на ядрото, чрез DHCP или файла "
+"syslinux.cfg на специализиран носител)"
 
 #. Type: string
 #. Description
@@ -134,6 +147,8 @@ msgstr ""
 #: ../network-preseed.templates:2001
 msgid "See http://wiki.debian.org/DebianInstaller/Preseed for inspiration."
 msgstr ""
+"Допълнителна информация има на страницата http://wiki.debian.org/"
+"DebianInstaller/Preseed ."
 
 #. Type: text
 #. Description
