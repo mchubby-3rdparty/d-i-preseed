@@ -85,9 +85,8 @@ msgstr "ດາວໂຫລດແຟ້ມຄ່າຕັ້ງລ່ວງໜ້
 #. :sl3:
 #: ../network-preseed.templates:2001
 #, fuzzy
-#| msgid "Load debconf preconfiguration file"
 msgid "Location of initial preconfiguration file:"
-msgstr "ດາວໂຫລດແຟ້ມຄ່າຕັ້ງລ່ວງໜ້າສຳຫລັບ debconf"
+msgstr "ຕັ້ງຄ່າການເຂົ້າລະຫັດບໍ່ສຳເລັດ"
 
 #. Type: string
 #. Description
