@@ -2,6 +2,8 @@ preseed (1.49) UNRELEASED; urgency=low
 
   [ Christian Perrier ]
   * Make preseed/url translatable
+  * Add a "keymap" alias, as of now for console-keymaps-at/keymap
+    Closes: #621400
 
   [ Joey Hess ]
   * Update auto-install/defaultroot for wheezy.
