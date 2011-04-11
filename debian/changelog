@@ -4,9 +4,14 @@ preseed (1.49) UNRELEASED; urgency=low
   * Make preseed/url translatable
   * Add a "keymap" alias, as of now for console-keymaps-at/keymap
     Closes: #621400
+  * Add a "preseed-md5" alias for preseed/file/checksum
+    Closes: #621393
 
   [ Joey Hess ]
   * Update auto-install/defaultroot for wheezy.
+
+  [ Christian Perrier ]
+  * 
 
  -- Christian Perrier <bubulle@debian.org>  Sun, 30 Jan 2011 17:28:54 +0100
 

@@ -19,3 +19,4 @@ tasks	tasksel:tasksel/first
 desktop	tasksel:tasksel/desktop
 dmraid	disk-detect/dmraid/enable
 keymap console-keymaps-at/keymap
+preseed-md5 preseed/file/checksum
