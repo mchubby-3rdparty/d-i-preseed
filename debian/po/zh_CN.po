@@ -11,14 +11,14 @@
 # Translated by Yijun Yuan (2004), Carlos Z.F. Liu (2004,2005,2006),
 # Ming Hua (2005,2006,2007,2008), Xiyue Deng (2008), Kov Chai (2008),
 # Kenlen Lai (2008), WCM (2008), Ren Xiaolei (2008).
-# YunQiang Su <wzssyqa@gmail.com>, 2010.
+# YunQiang Su <wzssyqa@gmail.com>, 2010, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: preseed@packages.debian.org\n"
 "POT-Creation-Date: 2011-01-30 18:05+0000\n"
-"PO-Revision-Date: 2010-10-04 03:35+0800\n"
+"PO-Revision-Date: 2011-04-15 11:58+0800\n"
 "Last-Translator: YunQiang Su <wzssyqa@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -86,9 +86,8 @@ msgstr "下载 debconf 预配置文件"
 #. Description
 #. :sl3:
 #: ../network-preseed.templates:2001
-#, fuzzy
 msgid "Location of initial preconfiguration file:"
-msgstr "装载 debconf 预配置文件"
+msgstr "初始预配置文件位置："
 
 #. Type: string
 #. Description
@@ -99,6 +98,8 @@ msgid ""
 "preconfiguration file (which can in turn pull in other files). To do that, "
 "you need to provide a (perhaps partial) URL."
 msgstr ""
+"为了执行自动安装，您需要提供预配置文件(用来依次拉取其它文件)。要做到这，需要"
+"提供一个 URL(也可能是一个 URL 的一部分)。"
 
 #. Type: string
 #. Description
@@ -114,6 +115,13 @@ msgid ""
 "  floppy://preseed.cfg\n"
 "  file:///hd-media/kiosk/./preseed.cfg"
 msgstr ""
+"这仅仅简单地就是您放置预置文件的主机名组成一个完整的 URL。下列都可以工作：\n"
+"  intra\t\t[对于 example.com，那三个是等同的]\n"
+"  intra.example.com\n"
+"  http://intra.example.com/d-i/./lenny/preseed.cfg\n"
+"  http://192.168.0.1/~phil/test47.txt\n"
+"  floppy://preseed.cfg\n"
+"  file:///hd-media/kiosk/./preseed.cfg"
 
 #. Type: string
 #. Description
@@ -123,13 +131,15 @@ msgid ""
 "For fully automated installs, preseed/url should itself be preseeded (via "
 "kernel command line, DHCP, or syslinux.cfg on customised media)"
 msgstr ""
+"对于全自动安装，预配置 URL 本身也应该预配置(通过自定义媒体上的内核命令行、"
+"DHCP 或者 syslinux.cfg)。"
 
 #. Type: string
 #. Description
 #. :sl3:
 #: ../network-preseed.templates:2001
 msgid "See http://wiki.debian.org/DebianInstaller/Preseed for inspiration."
-msgstr ""
+msgstr "查看 http://wiki.debian.org/DebianInstaller/Preseed 来获取灵感。"
 
 #. Type: text
 #. Description
