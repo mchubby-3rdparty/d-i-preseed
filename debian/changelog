@@ -1,4 +1,4 @@
-preseed (1.49) UNRELEASED; urgency=low
+preseed (1.49) unstable; urgency=low
 
   [ Christian Perrier ]
   * Make preseed/url translatable
@@ -10,10 +10,33 @@ preseed (1.49) UNRELEASED; urgency=low
   [ Joey Hess ]
   * Update auto-install/defaultroot for wheezy.
 
-  [ Christian Perrier ]
-  * 
+  [ Updated translations ]
+  * Belarusian (be.po) by Pavel Piatruk
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * Bengali (bn.po) by Israt Jahan
+  * Czech (cs.po) by Miroslav Kure
+  * German (de.po) by Holger Wansing
+  * Esperanto (eo.po) by Felipe Castro
+  * Spanish (es.po) by Javier Fernández-Sanguino
+  * Estonian (et.po) by Mattias Põldaru
+  * Persian (fa.po) by Behrad Eslamifar
+  * French (fr.po) by Christian Perrier
+  * Georgian (ka.po) by Aiet Kolkhi
+  * Kazakh (kk.po) by Baurzhan Muftakhidinov
+  * Korean (ko.po) by Changwoo Ryu
+  * Marathi (mr.po) by sampada
+  * Bokmål, Norwegian (nb.po) by Hans Fredrik Nordhaug
+  * Nepali (ne.po)
+  * Portuguese (pt.po) by Miguel Figueiredo
+  * Romanian (ro.po) by Eddy Petrișor
+  * Russian (ru.po) by Yuri Kozlov
+  * Slovak (sk.po) by Ivan Masár
+  * Swedish (sv.po) by Daniel Nylander
+  * Thai (th.po) by Theppitak Karoonboonyanan
+  * Uyghur (ug.po) by Sahran
+  * Simplified Chinese (zh_CN.po) by YunQiang Su
 
- -- Christian Perrier <bubulle@debian.org>  Sun, 30 Jan 2011 17:28:54 +0100
+ -- Christian Perrier <bubulle@debian.org>  Sat, 23 Apr 2011 09:58:53 +0200
 
 preseed (1.48) unstable; urgency=low
 
