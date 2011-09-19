@@ -9,15 +9,19 @@
 # Copyright (C) 2003 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
 #
+#
+# Translations from iso-codes:
 # Eugeniy Meshcheryakov <eugen@debian.org>, 2005, 2006, 2007, 2010.
 # Євгеній Мещеряков <eugen@debian.org>, 2008.
-# Borys Yanovych <borys@yanovy.ch>, 2010.
+# Borys Yanovych <borys@yanovy.ch>, 2010, 2011.
+# Maxim V. Dziumanenko <dziumanenko@gmail.com>, 2010.
+# Yuri Chornoivan <yurchor@ukr.net>, 2010, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: preseed@packages.debian.org\n"
 "POT-Creation-Date: 2011-01-30 18:05+0000\n"
-"PO-Revision-Date: 2010-11-01 01:29+0200\n"
+"PO-Revision-Date: 2011-09-19 07:23+0300\n"
 "Last-Translator: Borys Yanovych <borys@yanovy.ch>\n"
 "Language-Team: Ukrainian <>\n"
 "Language: uk\n"
@@ -91,19 +95,22 @@ msgstr "Отримати файл передналаштувань debconf"
 #. Description
 #. :sl3:
 #: ../network-preseed.templates:2001
-#, fuzzy
 msgid "Location of initial preconfiguration file:"
-msgstr "Завантажити файл передналаштувань debconf"
+msgstr "Місцезнаходження первинного файлу передналаштувань:"
 
 #. Type: string
 #. Description
 #. :sl3:
 #: ../network-preseed.templates:2001
+#, fuzzy
 msgid ""
 "In order to perform an automated install, you need to supply a "
 "preconfiguration file (which can in turn pull in other files). To do that, "
 "you need to provide a (perhaps partial) URL."
 msgstr ""
+"У випадку здійснення автоматичного встановлення потрібен файл "
+"передналаштувань (який в свою чергу може посилатись на інші файли). Щоб "
+"здійснити це, вкажіть (хоча б частково) адресу URL."
 
 #. Type: string
 #. Description
@@ -135,6 +142,7 @@ msgstr ""
 #: ../network-preseed.templates:2001
 msgid "See http://wiki.debian.org/DebianInstaller/Preseed for inspiration."
 msgstr ""
+"Шукайте натхнення за адресою http://wiki.debian.org/DebianInstaller/Preseed."
 
 #. Type: text
 #. Description
