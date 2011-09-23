@@ -114,7 +114,7 @@ msgid ""
 "you need to provide a (perhaps partial) URL."
 msgstr ""
 "Instalazio automatikoa osatu ahal izateko, aurrekonfigurazio fitxategi batez "
-"(zein fitxategi ezberdinetan banatu daitekene) hornitu behar duzu. Hau "
+"(zein fitxategi ezberdinetan banatu daitezken) hornitu behar duzu. Hau "
 "egiteko URL bat (agian partziala) eman behar duzu."
 
 #. Type: string
