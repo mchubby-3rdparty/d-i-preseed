@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: preseed@packages.debian.org\n"
 "POT-Creation-Date: 2011-01-30 18:05+0000\n"
-"PO-Revision-Date: 2011-09-18 21:28+0100\n"
+"PO-Revision-Date: 2011-09-26 10:46+0100\n"
 "Last-Translator: Marcin Owsiany <porridge@debian.org>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
 "Language: pl\n"
@@ -44,7 +44,7 @@ msgstr ""
 #. :sl2:
 #: ../preseed-common.templates:1001
 msgid "Failed to retrieve the preconfiguration file"
-msgstr ""
+msgstr "Pobranie wstępnego pliku konfiguracji nie powiodło się"
 
 #. Type: error
 #. Description
@@ -54,13 +54,15 @@ msgid ""
 "The file needed for preconfiguration could not be retrieved from "
 "${LOCATION}. The installation will proceed in non-automated mode."
 msgstr ""
+"Plik potrzebny do wstępnej konfiguracji nie mógł być pobrany z ${LOCATION}. "
+"Instalacja będzie kontynuowana w trybie nieautomatycznym."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../preseed-common.templates:2001
 msgid "Failed to process the preconfiguration file"
-msgstr ""
+msgstr "Przetworzenie wstępnego pliku konfiguracji nie powiodło się"
 
 #. Type: error
 #. Description
@@ -70,13 +72,15 @@ msgid ""
 "The installer failed to process the preconfiguration file from ${LOCATION}. "
 "The file may be corrupt."
 msgstr ""
+"Instalator nie mógł przetworzyć pliku wstępnej konfiguracji z ${LOCATION}. "
+"Możliwe, że plik jest uszkodzony."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../preseed-common.templates:10001
 msgid "Failed to run preseeded command"
-msgstr ""
+msgstr "Uruchomienie wstępnie pobranego polecenia nie powiodło się"
 
 #. Type: error
 #. Description
@@ -85,20 +89,22 @@ msgstr ""
 msgid ""
 "Execution of preseeded command \"${COMMAND}\" failed with exit code ${CODE}."
 msgstr ""
+"Uruchomienie wstępnie pobranego polecenia \"${COMMAND}\" nie powiodło się "
+"zwracając kod ${CODE}."
 
 #. Type: text
 #. Description
 #. Main menu item
 #: ../network-preseed.templates:1001
 msgid "Download debconf preconfiguration file"
-msgstr ""
+msgstr "Pobierz wstępny plik debconf"
 
 #. Type: string
 #. Description
 #. :sl3:
 #: ../network-preseed.templates:2001
 msgid "Location of initial preconfiguration file:"
-msgstr ""
+msgstr "Lokalizacja wstępnego pliku prekonfiguracji:"
 
 #. Type: string
 #. Description
@@ -109,6 +115,9 @@ msgid ""
 "preconfiguration file (which can in turn pull in other files). To do that, "
 "you need to provide a (perhaps partial) URL."
 msgstr ""
+"Aby przeprowadzić instalację automatyczną, należy dostarczyć plik "
+"prekonfiguracji (który może z kolei odwoływać się do innych plików). W tym "
+"celu należy podać (być może częściowy) URL."
 
 #. Type: string
 #. Description
@@ -124,6 +133,14 @@ msgid ""
 "  floppy://preseed.cfg\n"
 "  file:///hd-media/kiosk/./preseed.cfg"
 msgstr ""
+"W najprostszym przypadku jest to nazwa maszyny na której znajdują się pliki "
+"prekonfiguracji, a w bardziej złożonym - pełny URL. Oto kilka przykładów:\n"
+"  intra\t\t[w domenie przyklad.com, następujące są równoważne]\n"
+"  intra.przyklad.com\n"
+"  http://intra.przyklad.com/d-i/./lenny/preseed.cfg\n"
+"  http://192.168.0.1/~phil/test47.txt\n"
+"  floppy://preseed.cfg\n"
+"  file:///hd-media/kiosk/./preseed.cfg"
 
 #. Type: string
 #. Description
@@ -133,6 +150,9 @@ msgid ""
 "For fully automated installs, preseed/url should itself be preseeded (via "
 "kernel command line, DHCP, or syslinux.cfg on customised media)"
 msgstr ""
+"W pełni automatycznych instalacjach wartość preseed/url także powinna być "
+"dostarczona wcześniej (przez linię polecenia jądra, DHCP lub syslinux.cfg na "
+"przerobionym nośniku)"
 
 #. Type: string
 #. Description
@@ -140,10 +160,11 @@ msgstr ""
 #: ../network-preseed.templates:2001
 msgid "See http://wiki.debian.org/DebianInstaller/Preseed for inspiration."
 msgstr ""
+"Przykłady dostępne są na http://wiki.debian.org/DebianInstaller/Preseed."
 
 #. Type: text
 #. Description
 #. Main menu item
 #: ../file-preseed.templates:1001
 msgid "Load debconf preconfiguration file"
-msgstr ""
+msgstr "Załaduj wstępny plik debconf"
