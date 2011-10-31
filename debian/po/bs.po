@@ -10,13 +10,24 @@
 #
 # Safir Secerovic <sapphire@linux.org.ba>, 2006.
 # Armin Besirovic <armin@linux.org.ba>, 2008.
+#
+# Translations from iso-codes:
+#   Alastair McKinstry <mckinstry@computer.org>, 2001,2002.
+#   Free Software Foundation, Inc., 2001,2002,2003,2004
+#   Safir Šećerović <sapphire@linux.org.ba>, 2004,2006.
+#   Vedran Ljubovic <vljubovic@smartnet.ba>, 2001
+#   (translations from drakfw).
+#   Translations from KDE:
+#   Nesiren Armin <bianchi@lugbih.org>, 2002
+#   Vedran Ljubovic <vljubovic@smartnet.ba>, 2002
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_bs\n"
 "Report-Msgid-Bugs-To: preseed@packages.debian.org\n"
 "POT-Creation-Date: 2011-01-30 18:05+0000\n"
-"PO-Revision-Date: 2010-07-27 18:25+0100\n"
-"Last-Translator: Armin Beširović <armin@linux.org.ba>\n"
+"PO-Revision-Date: 2011-09-26 15:05+0100\n"
+"Last-Translator: Armin Besirovic <armin@linux.org.ba>\n"
 "Language-Team: Bosnian <lokal@linux.org.ba>\n"
 "Language: bs\n"
 "MIME-Version: 1.0\n"
@@ -91,10 +102,8 @@ msgstr "Preuzmi debconf prekonfiguracionu datoteku"
 #. Description
 #. :sl3:
 #: ../network-preseed.templates:2001
-#, fuzzy
-#| msgid "Load debconf preconfiguration file"
 msgid "Location of initial preconfiguration file:"
-msgstr "Učitaj debconf prekonfiguracionu datoteku"
+msgstr "Lokacija inicijalnog pretkonfiguracijskog fajla:"
 
 #. Type: string
 #. Description
@@ -105,6 +114,9 @@ msgid ""
 "preconfiguration file (which can in turn pull in other files). To do that, "
 "you need to provide a (perhaps partial) URL."
 msgstr ""
+"Da biste izvršili automatizovanu instalaciju, morate imate "
+"pretkonfiguracijski fajl (koji može povući druge fajlove). Da biste uradili "
+"to, morate unijeti (moguće skraćeni) URL."
 
 #. Type: string
 #. Description
