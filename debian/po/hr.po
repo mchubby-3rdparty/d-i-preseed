@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Debian-installer 1st-stage master file HR\n"
 "Report-Msgid-Bugs-To: preseed@packages.debian.org\n"
 "POT-Creation-Date: 2011-01-30 18:05+0000\n"
-"PO-Revision-Date: 2012-06-18 16:28+0200\n"
+"PO-Revision-Date: 2012-06-21 18:59+0200\n"
 "Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -95,9 +95,8 @@ msgstr "Skini datoteku s pred-postavkama debconfa"
 #. Description
 #. :sl3:
 #: ../network-preseed.templates:2001
-#, fuzzy
 msgid "Location of initial preconfiguration file:"
-msgstr "Učitaj datoteku s pred-postavkama debconfa"
+msgstr "Položaj datoteke s inicijalnim pred-postavkama:"
 
 #. Type: string
 #. Description
@@ -108,6 +107,9 @@ msgid ""
 "preconfiguration file (which can in turn pull in other files). To do that, "
 "you need to provide a (perhaps partial) URL."
 msgstr ""
+"Kako biste izvršili automatsku instalaciju, morate navesti datoteku s pred-"
+"postavkama (koja može 'povući' ostale datoteke). Da biste to napravili, "
+"morate navesti (barem djelomični) URL."
 
 #. Type: string
 #. Description
@@ -123,6 +125,14 @@ msgid ""
 "  floppy://preseed.cfg\n"
 "  file:///hd-media/kiosk/./preseed.cfg"
 msgstr ""
+"Ovo može biti od jednostavnog imena računala gdje se nalaze datoteke sve do "
+"potpunog URL-a. Sve navedeno je ispravno:\n"
+"  intra\t\t[za primjer.com, ova tri su jednaka]\n"
+"  intra.primjer.com\n"
+"  http://intra.primjer.com/d-i/./lenny/preseed.cfg\n"
+"  http://192.168.0.1/~filip/test47.txt\n"
+"  floppy://preseed.cfg\n"
+"  file:///hd-media/kiosk/./preseed.cfg"
 
 #. Type: string
 #. Description
@@ -132,6 +142,9 @@ msgid ""
 "For fully automated installs, preseed/url should itself be preseeded (via "
 "kernel command line, DHCP, or syslinux.cfg on customised media)"
 msgstr ""
+"Za potpuno automatizirane instalacije, preseed/url bi trebao biti prethodno "
+"naveden (preko naredbenog retka jezgre, DHCP-om ili u syslinux.cfg na "
+"prilagođenom mediju)"
 
 #. Type: string
 #. Description
@@ -139,6 +152,7 @@ msgstr ""
 #: ../network-preseed.templates:2001
 msgid "See http://wiki.debian.org/DebianInstaller/Preseed for inspiration."
 msgstr ""
+"Pogledajte http://wiki.debian.org/DebianInstaller/Preseed za inspiraciju."
 
 #. Type: text
 #. Description
