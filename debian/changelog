@@ -1,8 +1,11 @@
-preseed (1.54) UNRELEASED; urgency=low
+preseed (1.54) unstable; urgency=low
 
   * Add myself to Uploaders
 
- -- Christian Perrier <bubulle@debian.org>  Sun, 05 Aug 2012 08:32:24 +0200
+  [ Updated translations ]
+  * Spanish (es.po) by Javier Fernández-Sanguino
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 05 Aug 2012 08:40:19 +0200
 
 preseed (1.53) unstable; urgency=low
 
