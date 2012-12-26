@@ -110,6 +110,18 @@ is(run_test('preseed/url'=>'http://foo/preseed.cfg',
    'foo and unassigned-domain (1 "n")'
   );
 
+is(run_test('preseed/url'=>'foo/preseed.cfg',
+           ),
+   'preseed/url=http://foo/preseed.cfg',
+   'http:// is added'
+  );
+
+is(run_test('preseed/url'=>'ftp://foo/preseed.cfg',
+           ),
+   'preseed/url=ftp://foo/preseed.cfg',
+   'ftp:// is kept'
+  );
+
 # XXX: Write some tests for auto-install/defaultroot
 
 # Clean-up:
