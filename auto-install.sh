@@ -14,6 +14,7 @@ if [ -e /var/run/preseed_unspecified_at_boot ]; then
 	fi
 fi
 
+# BEGIN: testable
 db_get preseed/url && url="$RET"
 [ "$url" ] || exit 0
 
@@ -42,3 +43,4 @@ if expr $host : [^.]*$ >/dev/null; then
 fi
 
 db_set preseed/url $proto://$host/$dir
+# END: testable
