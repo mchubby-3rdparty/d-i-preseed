@@ -1,4 +1,4 @@
-preseed (1.57) UNRELEASED; urgency=low
+preseed (1.57) unstable; urgency=low
 
   [ Cyril Brulebois ]
   * Add test suite to catch issues in preseed url parsing (auto-install.sh),
@@ -9,7 +9,7 @@ preseed (1.57) UNRELEASED; urgency=low
     Closes: #695908
   * also, deal with unnassigned-domain typo, by accepting both spellings
 
- -- Cyril Brulebois <kibi@debian.org>  Wed, 26 Dec 2012 18:51:35 +0100
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 26 Dec 2012 19:10:05 +0100
 
 preseed (1.56) unstable; urgency=low
 
