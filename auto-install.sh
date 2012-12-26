@@ -36,7 +36,7 @@ fi
 if expr $host_port : [^.]*$ >/dev/null; then
 	db_get netcfg/get_domain && domain="$RET"
 
-	if [ -n "$domain" ] && [ "$domain" != "unnassigned-domain" ]; then
+	if [ -n "$domain" ] && [ "$domain" != "unassigned-domain" ] && [ "$domain" != "unnassigned-domain" ]; then
 		host=${host_port%%:*}
 		if [ "$host" = "$host_port" ]; then
 			port=""
