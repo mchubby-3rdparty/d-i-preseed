@@ -1,3 +1,10 @@
+preseed (1.57) UNRELEASED; urgency=low
+
+  * deal with urls that consist of an unqualified machine name and a port
+    Closes: #695908
+
+ -- Philip Hands <phil@hands.com>  Wed, 26 Dec 2012 10:30:06 +0000
+
 preseed (1.56) unstable; urgency=low
 
   [ Updated translations ]
