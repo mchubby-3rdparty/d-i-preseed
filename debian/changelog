@@ -1,3 +1,10 @@
+preseed (1.58) UNRELEASED; urgency=low
+
+  * Re-enable keyboard question on file preseed, thanks Brian Potkin for the
+    investigation. Closes: #696857.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sat, 29 Dec 2012 00:56:17 +0100
+
 preseed (1.57) unstable; urgency=low
 
   [ Cyril Brulebois ]
