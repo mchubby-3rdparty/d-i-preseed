@@ -1,3 +1,10 @@
+preseed (1.58) unstable; urgency=low
+
+  [ Updated translations ]
+  * Malayalam fixed (preseed URLs)
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 10 Jan 2013 07:38:34 +0100
+
 preseed (1.57) unstable; urgency=low
 
   [ Cyril Brulebois ]
