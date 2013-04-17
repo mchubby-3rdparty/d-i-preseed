@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Debian-installer 1st-stage master file HR\n"
 "Report-Msgid-Bugs-To: preseed@packages.debian.org\n"
 "POT-Creation-Date: 2011-01-30 18:05+0000\n"
-"PO-Revision-Date: 2013-04-16 05:30+0200\n"
+"PO-Revision-Date: 2013-04-17 18:08+0200\n"
 "Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -47,8 +47,8 @@ msgid ""
 "The file needed for preconfiguration could not be retrieved from "
 "${LOCATION}. The installation will proceed in non-automated mode."
 msgstr ""
-"Datoteku koja je potrebna za prepostavljanje nije moguće dobaviti s "
-"${LOCATION}. Instalacija će se nastaviti u ne-automatskom načinu."
+"Datoteku koja je potrebna za pred-postavljanje nije moguće dobaviti s "
+"${LOCATION}. Instalacija će se nastaviti u neautomatskom načinu."
 
 #. Type: error
 #. Description
@@ -66,7 +66,7 @@ msgid ""
 "The file may be corrupt."
 msgstr ""
 "Instalacija nije uspjela učitati datoteku s pred-postavkama s ${LOCATION}. "
-"Datoteka je bi mogla biti neispravna."
+"Datoteka je možda oštećena."
 
 #. Type: error
 #. Description
