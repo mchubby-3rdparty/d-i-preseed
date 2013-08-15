@@ -89,8 +89,9 @@ msgstr "Боргирӣ кардани файли конфигуратсияи п
 #. Description
 #. :sl3:
 #: ../network-preseed.templates:2001
+#, fuzzy
 msgid "Location of initial preconfiguration file:"
-msgstr "Ҷойгиршавии файли асосии конфигуратсияи пешакӣ:"
+msgstr "Бор кардани файли конфигуратсияи пешакии debconf"
 
 #. Type: string
 #. Description
@@ -101,10 +102,6 @@ msgid ""
 "preconfiguration file (which can in turn pull in other files). To do that, "
 "you need to provide a (perhaps partial) URL."
 msgstr ""
-"Барои иҷро кардани насбкунии худкор, шумо бояд файли конфигуратсияи пешакиро "
-"муайян кунед (ки дар навбати худ метавонад файлҳои дигарро истифода барад). "
-"Барои иҷрои ин амал, шумо бояд Суроғаи URL-ро (эҳтимол аст, ки қисман) "
-"пешниҳод кунед."
 
 #. Type: string
 #. Description
@@ -120,15 +117,6 @@ msgid ""
 "  floppy://preseed.cfg\n"
 "  file:///hd-media/kiosk/./preseed.cfg"
 msgstr ""
-"Ин метавонад ҳамчун номи компютер осон бошад, ки дар он компютер файлҳои "
-"худкоршуда то суроғаи пурраи URL ҷойгир мебошанд. Ягонтои зерин метавонад ба "
-"кор ояд:\n"
-"  intra\t\t[барои example.com, сетои зерин баробар мебошанд]\n"
-"  intra.example.com\n"
-"  http://intra.example.com/d-i/./lenny/preseed.cfg\n"
-"  http://192.168.0.1/~phil/test47.txt\n"
-"  floppy://preseed.cfg\n"
-"  file:///hd-media/kiosk/./preseed.cfg"
 
 #. Type: string
 #. Description
@@ -138,8 +126,6 @@ msgid ""
 "For fully automated installs, preseed/url should itself be preseeded (via "
 "kernel command line, DHCP, or syslinux.cfg on customised media)"
 msgstr ""
-"Барои насбкуниҳои пурра худкоршуда, preseed/url бояд худаш худкор шавад "
-"(тавассути сатри фармони мағзӣ, DHCP, ё syslinux.cfg дар захирагоҳи фармоишӣ)"
 
 #. Type: string
 #. Description
@@ -147,7 +133,6 @@ msgstr ""
 #: ../network-preseed.templates:2001
 msgid "See http://wiki.debian.org/DebianInstaller/Preseed for inspiration."
 msgstr ""
-"Барои илҳом \"http://wiki.debian.org/DebianInstaller/Preseed\"-ро бинед."
 
 #. Type: text
 #. Description
