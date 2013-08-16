@@ -16,8 +16,8 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: preseed@packages.debian.org\n"
 "POT-Creation-Date: 2011-01-30 18:05+0000\n"
-"PO-Revision-Date: 2013-08-15 16:26+0500\n"
-"Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
 "Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
 "Language: Tajik\n"
 "MIME-Version: 1.0\n"
@@ -91,7 +91,7 @@ msgstr "Боргирӣ кардани файли конфигуратсияи п
 #: ../network-preseed.templates:2001
 #, fuzzy
 msgid "Location of initial preconfiguration file:"
-msgstr "Бор кардани файли конфигуратсияи пешакии debconf"
+msgstr "     debconf"
 
 #. Type: string
 #. Description
