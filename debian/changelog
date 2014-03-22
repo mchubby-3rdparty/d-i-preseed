@@ -1,9 +1,13 @@
-preseed (1.64) UNRELEASED; urgency=low
+preseed (1.64) unstable; urgency=low
 
+  [ Samuel Thibault ]
   * Re-enable keyboard question on file preseed, thanks Brian Potkin for the
     investigation. Closes: #696857.
 
- -- Samuel Thibault <sthibault@debian.org>  Sat, 29 Dec 2012 00:56:17 +0100
+  [ Updated translations ]
+  * Simplified Chinese (zh_CN.po) by YunQiang Su
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 22 Mar 2014 12:51:31 +0100
 
 preseed (1.63) unstable; urgency=low
 
