@@ -1,3 +1,9 @@
+preseed (1.66) UNRELEASED; urgency=medium
+
+  * Update auto-install/defaultroot for jessie.
+
+ -- Philip Hands <phil@hands.com>  Tue, 23 Sep 2014 21:50:30 +0100
+
 preseed (1.65) unstable; urgency=medium
 
   [ Samuel Thibault ]
