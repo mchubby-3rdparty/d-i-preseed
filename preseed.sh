@@ -90,6 +90,7 @@ preseed_location () {
 
 		# not really sure if the ones above are required if this is here
 		db_set preseed/include ""
+		db_set preseed/include/checksum ""
 		db_set preseed/include_command ""
 		db_set preseed/run ""
 		db_set preseed/run/checksum ""
