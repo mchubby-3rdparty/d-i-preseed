@@ -45,11 +45,7 @@ preseed_location () {
 	
 	local tmp=/tmp/debconf-seed
 	
-	if ! preseed_fetch "$location" "$tmp"; then
-		error retrieve_error "$location"
-	fi
-	if [ -n "$checksum" ] && \
-	   [ "$(md5sum $tmp | cut -d' ' -f1)" != "$checksum" ]; then
+	if ! preseed_fetch "$location" "$tmp" "$checksum"; then
 		error retrieve_error "$location"
 	fi
 
