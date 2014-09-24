@@ -42,6 +42,7 @@ make_absolute_url() {
 preseed_location () {
 	local location="$1"
 	local checksum="$2"
+	local sum torun torun_checksum
 	
 	local tmp=/tmp/debconf-seed
 	
@@ -52,6 +53,7 @@ preseed_location () {
 	db_set preseed/include ""
 	db_set preseed/include_command ""
 	db_set preseed/run ""
+	db_set preseed/run/checksum ""
 	UNSEEN=
 	db_get preseed/interactive
 	if [ "$RET" = true ]; then
@@ -79,12 +81,18 @@ preseed_location () {
 			checksum=""
 		fi
 		db_get preseed/run
-		local torun="$RET"
+		torun="$RET"
+		if db_get preseed/run/checksum; then
+			torun_checksum="$RET"
+		else
+			torun_checksum=""
+		fi
 
 		# not really sure if the ones above are required if this is here
 		db_set preseed/include ""
 		db_set preseed/include_command ""
 		db_set preseed/run ""
+		db_set preseed/run/checksum ""
 
 		[ -n "$include" -o -n "$torun" ] || break
 
@@ -102,10 +110,13 @@ preseed_location () {
 		echo $last_location > /var/run/preseed.last_location
 
 		for location in $torun; do
+			sum="${torun_checksum%% *}"
+			torun_checksum="${torun_checksum#$sum }"
+
 			location=$(make_absolute_url "$location" "$last_location")
 			# BTW -- is this test for empty strings really needed?
 			if [ -n "$location" ]; then
-				if ! preseed_fetch "$location" "$tmp"; then
+				if ! preseed_fetch "$location" "$tmp" "$sum"; then
 					log "error fetching \"$location\""
 					error retrieve_error "$location"
 				fi

@@ -32,6 +32,11 @@ Type: string
 Description: for internal use; can be preseeded
  Programs to be obtained & run
 
+Template: preseed/run/checksum
+Type: string
+Description: for internal use; can be preseeded
+ md5sums of programs to be obtained & run
+
 Template: preseed/include
 Type: string
 Description: for internal use; can be preseeded
