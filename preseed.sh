@@ -9,7 +9,12 @@ log () {
 error () {
 	error="$1"
 	location="$2"
+	checksum="$3"
 	db_subst preseed/$error LOCATION "$location"
+	[ -z "$checksum" ] || {
+		db_subst preseed/$error CHECKSUM "$checksum"
+		db_subst preseed/$error ALGORITHM "MD5"
+	}
 	db_input critical preseed/$error || true
 	db_go || true
 	exit 1
@@ -46,9 +51,13 @@ preseed_location () {
 	
 	local tmp=/tmp/debconf-seed
 	
-	if ! preseed_fetch "$location" "$tmp" "$checksum"; then
-		error retrieve_error "$location"
-	fi
+	local retval=0
+	preseed_fetch "$location" "$tmp" "$checksum" || retval=$?
+	case $retval in
+	    0) ;;
+	    2) error checksum_error "$location" "$checksum" ;;
+	    *) error retrieve_error "$location" ;;
+	esac
 
 	db_set preseed/include ""
 	db_set preseed/include_command ""
@@ -117,10 +126,19 @@ preseed_location () {
 			location=$(make_absolute_url "$location" "$last_location")
 			# BTW -- is this test for empty strings really needed?
 			if [ -n "$location" ]; then
-				if ! preseed_fetch "$location" "$tmp" "$sum"; then
+				retval=0
+				preseed_fetch "$location" "$tmp" "$sum" || retval=$?
+				case $retval in
+				    0) ;;
+				    2)
+					log "checksum error \"$location\", expected \"$sum\""
+					error checksum_error "$location" "$sum"
+					;;
+				    *)
 					log "error fetching \"$location\""
 					error retrieve_error "$location"
-				fi
+					;;
+				esac
 				chmod +x $tmp
 				if ! log-output -t preseed/run $tmp; then
 					log "error running \"$location\""
