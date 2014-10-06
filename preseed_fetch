@@ -2,9 +2,19 @@
 
 . /lib/preseed/preseed.sh
 
-# eat options starting with a -, so we can pass them on
-while expr "$1" : "-" >/dev/null; do
-	OPTS="$OPTS $1"
+while true; do
+	case "$1" in
+	    -C)
+		LOOKUP_CHECKSUM=1
+		;;
+	    -*)
+		# eat options starting with a -, so we can pass them on
+		OPTS="$OPTS $1"
+		;;
+	    *)
+		break
+		;;
+	esac
 	shift
 done
 
