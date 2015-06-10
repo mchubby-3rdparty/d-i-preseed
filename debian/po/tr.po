@@ -6,48 +6,45 @@
 # Turkish messages for debian-installer.
 # Copyright (C) 2003, 2004 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
-#
 # Recai Oktaş <roktas@omu.edu.tr>, 2004, 2005, 2008.
 # Osman Yüksel <yuxel@sonsuzdongu.com>, 2004.
 # Özgür Murat Homurlu <ozgurmurat@gmx.net>, 2004.
 # Halil Demirezen <halild@bilmuh.ege.edu.tr>, 2004.
 # Murat Demirten <murat@debian.org>, 2004.
-#
-# Mert Dirik <mertdirik@gmail.com>, 2008, 2009.
-#
+# Mert Dirik <mertdirik@gmail.com>, 2008-2012, 2014.
 # Translations from iso-codes:
-#   Alastair McKinstry <mckinstry@computer.org>, 2001.
-#   (translations from drakfw)
-#   Fatih Demir <kabalak@gmx.net>, 2000.
-#   Free Software Foundation, Inc., 2000,2004
-#   Kemal Yilmaz <kyilmaz@uekae.tubitak.gov.tr>, 2001.
-#   Mert Dirik <mertdirik@gmail.com>, 2008.
-#   Nilgün Belma Bugüner <nilgun@fide.org>, 2001.
-#   Recai Oktaş <roktas@omu.edu.tr>, 2004.
-#   Tobias Quathamer <toddy@debian.org>, 2007.
-#     Translations taken from ICU SVN on 2007-09-09
-#   Ömer Fadıl USTA <omer_fad@hotmail.com>, 1999.
-#
+# Alastair McKinstry <mckinstry@computer.org>, 2001.
+# (translations from drakfw)
+# Fatih Demir <kabalak@gmx.net>, 2000.
+# Free Software Foundation, Inc., 2000,2004
+# Kemal Yilmaz <kyilmaz@uekae.tubitak.gov.tr>, 2001.
+# Mert Dirik <mertdirik@gmail.com>, 2008, 2014.
+# Nilgün Belma Bugüner <nilgun@fide.org>, 2001.
+# Recai Oktaş <roktas@omu.edu.tr>, 2004.
+# Tobias Quathamer <toddy@debian.org>, 2007.
+# Translations taken from ICU SVN on 2007-09-09
+# Ömer Fadıl USTA <omer_fad@hotmail.com>, 1999.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: preseed@packages.debian.org\n"
 "POT-Creation-Date: 2011-01-30 18:05+0000\n"
-"PO-Revision-Date: 2011-09-13 02:35+0200\n"
+"PO-Revision-Date: 2015-06-09 16:17+0200\n"
 "Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
-"Language-Team: Debian L10n Turkish <debian-l10n-turkish@lists.debian.org>\n"
-"Language: \n"
+"Language-Team: Debian L10N Turkish\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../preseed-common.templates:1001
+#, fuzzy
 msgid "Failed to retrieve the preconfiguration file"
-msgstr "Ön yapılandırma dosyası alınamadı"
+msgstr "Vmelilo yapılandırması oluşturulamadı"
 
 #. Type: error
 #. Description
@@ -57,15 +54,14 @@ msgid ""
 "The file needed for preconfiguration could not be retrieved from "
 "${LOCATION}. The installation will proceed in non-automated mode."
 msgstr ""
-"Ön yapılandırma için gerekli dosya ${LOCATION} üzerinden alınamadı. Kurulum "
-"otomatik olmayan kipte devam edecek."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../preseed-common.templates:2001
+#, fuzzy
 msgid "Failed to process the preconfiguration file"
-msgstr "Ön yapılandırma dosyası işlenemedi"
+msgstr "Vmelilo yapılandırması oluşturulamadı"
 
 #. Type: error
 #. Description
@@ -75,15 +71,14 @@ msgid ""
 "The installer failed to process the preconfiguration file from ${LOCATION}. "
 "The file may be corrupt."
 msgstr ""
-"Kurulum programı ${LOCATION} üzerinden alınan ön yapılandırma dosyasını "
-"işleyemedi. Dosya bozulmuş olabilir."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../preseed-common.templates:10001
+#, fuzzy
 msgid "Failed to run preseeded command"
-msgstr "önyanıtlanmış komut çalıştırılamadı"
+msgstr "Çekirdeği gösteren sembolik bağ çözülemedi"
 
 #. Type: error
 #. Description
@@ -92,8 +87,6 @@ msgstr "önyanıtlanmış komut çalıştırılamadı"
 msgid ""
 "Execution of preseeded command \"${COMMAND}\" failed with exit code ${CODE}."
 msgstr ""
-"Önyanıtlanmış (\"${COMMAND}\") komutu çalıştırılırken ${CODE} hata koduyla "
-"sonlandı."
 
 #. Type: text
 #. Description
@@ -106,8 +99,9 @@ msgstr "Debconf önyapılandırma dosyasını indir"
 #. Description
 #. :sl3:
 #: ../network-preseed.templates:2001
+#, fuzzy
 msgid "Location of initial preconfiguration file:"
-msgstr "İlk önyapılandırma dosyasının yeri:"
+msgstr "Debconf önyapılandırma dosyasını yükle"
 
 #. Type: string
 #. Description
@@ -118,9 +112,6 @@ msgid ""
 "preconfiguration file (which can in turn pull in other files). To do that, "
 "you need to provide a (perhaps partial) URL."
 msgstr ""
-"Otomatikleştirilmiş kurulum yapmak için bir önyanıt dosyası kullanmanız "
-"gerekir (önyanıt dosyası da başka dosyaları kullanabilir).  Önyanıt "
-"dosyasının adresini (URL) burada belirtebilirsiniz."
 
 #. Type: string
 #. Description
@@ -136,15 +127,6 @@ msgid ""
 "  floppy://preseed.cfg\n"
 "  file:///hd-media/kiosk/./preseed.cfg"
 msgstr ""
-"Adresler dosyaların bulunduğu makine adı kadar basit belirtilebildiği gibi "
-"dosyaların bulunduğu tam URL kullanılarak da belirtilebilir. Aşağıda bir "
-"takım örnekler vardır:  bilgisayarım\t\t[örnek.com için aşağıdakilerin üçü "
-"de aynıdır]\n"
-"  bilgisayarım.örnek.com\n"
-"  http://bilgisayarım.örnek.com/d-i/./lenny/önyanıt.cfg\n"
-"  http://192.168.0.1/~osman/test47.txt\n"
-"  floppy://önyanıt.cfg\n"
-" (disket için)  file:///hd-media/kiosk/./önyanıt.cfg"
 
 #. Type: string
 #. Description
@@ -154,9 +136,6 @@ msgid ""
 "For fully automated installs, preseed/url should itself be preseeded (via "
 "kernel command line, DHCP, or syslinux.cfg on customised media)"
 msgstr ""
-"Tam otomatik kurulumlar için önyanıt dosyasının adresi de önyanıt şeklinde "
-"belirtilmelidir. (çekirdek komut satırı, DHCP ya da özelleştirilmiş bir "
-"ortamdaki syslinux.cfg dosyası aracılığıyla)"
 
 #. Type: string
 #. Description
@@ -164,8 +143,6 @@ msgstr ""
 #: ../network-preseed.templates:2001
 msgid "See http://wiki.debian.org/DebianInstaller/Preseed for inspiration."
 msgstr ""
-"Bir fikir edinmek için http://wiki.debian.org/DebianInstaller/Preseed "
-"sayfasına uğrayın."
 
 #. Type: text
 #. Description
