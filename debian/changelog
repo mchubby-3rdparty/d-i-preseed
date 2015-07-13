@@ -1,3 +1,10 @@
+preseed (1.67) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Turkish (tr.po) by Mert Dirik
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 13 Jul 2015 13:53:52 +0200
+
 preseed (1.66) unstable; urgency=medium
 
   [ Philip Hands ]
