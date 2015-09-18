@@ -5,11 +5,12 @@
 if db_get auto-install/enable && [ "$RET" = true ]; then
 	# disable locale & kbd selection for now
 	echo 1 >/var/run/auto-install.active
-	# find at least one preseed
-	if [ ! -e /preseed.cfg ] &&
-	   { db_get preseed/url  || [ -z "$RET" ]; } &&
-	   { db_get preseed/file || [ -z "$RET" ]; }; then
-		# register that no preseed was specified
+	# check that no preseed has been specified
+	# (DHCP preseed still possible - once net is up, check in auto-install.sh)
+	if ! [ -e /preseed.cfg ] &&
+	   ! { db_get preseed/url  && [ "$RET" ]; } &&
+	   ! { db_get preseed/file && [ "$RET" ]; }; then
+		# register that no preseed was specified.
 		touch /var/run/preseed_unspecified_at_boot
 	fi
 fi
