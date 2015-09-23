@@ -1,9 +1,10 @@
-preseed (1.68) UNRELEASED; urgency=medium
+preseed (1.68) unstable; urgency=medium
 
+  [ Philip Hands ]
   * rectify preseed_unspecified_at_boot test, that was broken in 1.65.
     Closes: #799361
 
- -- Philip Hands <phil@hands.com>  Fri, 18 Sep 2015 14:12:19 +0100
+ -- Christian Perrier <bubulle@debian.org>  Tue, 22 Sep 2015 07:01:34 +0200
 
 preseed (1.67) unstable; urgency=medium
 
