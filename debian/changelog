@@ -1,3 +1,10 @@
+preseed (1.69) UNRELEASED; urgency=medium
+
+  * Invert env-preseed and initrd-preseed so that the former overrides
+    the latter. Closes: #805291
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Tue, 08 Dec 2015 15:38:16 +0100
+
 preseed (1.68) unstable; urgency=medium
 
   [ Philip Hands ]
