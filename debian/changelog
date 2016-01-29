@@ -1,3 +1,9 @@
+preseed (1.70) UNRELEASED; urgency=medium
+
+  * Use HTTPS for Vcs-* URLs, and link to cgit rather than gitweb.
+
+ -- Colin Watson <cjwatson@debian.org>  Fri, 29 Jan 2016 13:35:23 +0000
+
 preseed (1.69) unstable; urgency=medium
 
   [ Raphaël Hertzog ]

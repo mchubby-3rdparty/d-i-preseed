@@ -4,8 +4,8 @@ Priority: optional
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Uploaders: Philip Hands <phil@hands.com>, Christian Perrier <bubulle@debian.org>
 Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.9)
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=d-i/preseed.git
-Vcs-Git: git://anonscm.debian.org/d-i/preseed.git
+Vcs-Browser: https://anonscm.debian.org/cgit/d-i/preseed.git
+Vcs-Git: https://anonscm.debian.org/git/d-i/preseed.git
 
 Package: preseed-common
 Architecture: all
