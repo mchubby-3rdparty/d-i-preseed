@@ -1,3 +1,11 @@
+preseed (1.71) unstable; urgency=medium
+
+  [ Hendrik Brueckner ]
+  * auto-install: correctly handle IPv6 addresses Closes: #815166, LP:
+    #1547629
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Tue, 23 Feb 2016 22:35:55 +0000
+
 preseed (1.70) unstable; urgency=medium
 
   [ Colin Watson ]
