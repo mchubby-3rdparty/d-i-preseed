@@ -3,37 +3,12 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of debian-installer_packages_po_sublevel1_ne.po to Nepali
-# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2006.
-# Shiva Pokharel <pokharelshiva@hotmail.com>, 2006.
-# Shyam Krishna Bal <shyam@mpp.org.np>, 2006.
-# Shiva Prasad Pokharel <pokharelshiva@hotmail.com>, 2006.
-# Shiva Pokharel <shiva@mpp.org.np>, 2007, 2008.
-# Shiva Prasad Pokharel <pokharelshiv@gmail.com>, 2007.
-# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
-# Nabin Gautam <nabin@mpp.org.np>, 2007.
-# Shyam Krishna Bal <balshyam24@yahoo.com>, 2008.
-# Shiva Prasad Pokharel <shiva@mpp.org.np>, 2008, 2010, 2011.
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer_packages_po_sublevel1_ne\n"
-"Report-Msgid-Bugs-To: preseed@packages.debian.org\n"
-"POT-Creation-Date: 2011-01-30 18:05+0000\n"
-"PO-Revision-Date: 2011-02-22 17:11-0600\n"
-"Last-Translator: \n"
-"Language-Team: American English <kde-i18n-doc@kde.org>\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n !=1\n"
-
 #. Type: error
 #. Description
 #. :sl2:
 #: ../preseed-common.templates:1001
 msgid "Failed to retrieve the preconfiguration file"
-msgstr "पूर्व कन्फिगरेशन फाइल पुन:प्राप्त गर्नु असफल भयो"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -43,15 +18,13 @@ msgid ""
 "The file needed for preconfiguration could not be retrieved from "
 "${LOCATION}. The installation will proceed in non-automated mode."
 msgstr ""
-"पूर्व कन्फिगरेशनका लागि आवश्यक फाइल ${LOCATION} बाट पुन: प्राप्त गर्न सक्दैन । स्थापना "
-"स्वचालित नगरिएको मोडमा प्रक्रिया हुनेछ । "
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../preseed-common.templates:2001
 msgid "Failed to process the preconfiguration file"
-msgstr "पुन:कन्फिगरेशन फाइल प्रक्रिया गर्न असफल भयो"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -61,14 +34,13 @@ msgid ""
 "The installer failed to process the preconfiguration file from ${LOCATION}. "
 "The file may be corrupt."
 msgstr ""
-"${LOCATION} बाट पुन:कन्फिगरेशन फाइल प्रक्रिया गर्न असफल भयो । फाइल दूषित हुन सक्छ ।"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../preseed-common.templates:10001
 msgid "Failed to run preseeded command"
-msgstr "पहिले चलाएको आदेश चलाउनु असफल भयो "
+msgstr ""
 
 #. Type: error
 #. Description
@@ -77,21 +49,20 @@ msgstr "पहिले चलाएको आदेश चलाउनु अ�
 msgid ""
 "Execution of preseeded command \"${COMMAND}\" failed with exit code ${CODE}."
 msgstr ""
-"पहिले चलाएको आदेश \"${COMMAND}\" को कार्यन्वयन निकास कोड ${CODE} सँगै असफल भयो ।"
 
 #. Type: text
 #. Description
 #. Main menu item
 #: ../network-preseed.templates:1001
 msgid "Download debconf preconfiguration file"
-msgstr "debconf पूर्वकन्फिगरेसन फाइल डाउनलोड गर्नुहोस्"
+msgstr ""
 
 #. Type: string
 #. Description
 #. :sl3:
 #: ../network-preseed.templates:2001
 msgid "Location of initial preconfiguration file:"
-msgstr "पूर्वकन्फिगरेसन फाइलको स्थान"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -102,8 +73,6 @@ msgid ""
 "preconfiguration file (which can in turn pull in other files). To do that, "
 "you need to provide a (perhaps partial) URL."
 msgstr ""
-"स्वचालित स्थापनाका लागि, तपाईँले पूर्वकन्फिगुरेसन फाइल दिनु पर्दछ(जसले अन्य फाइलहरू तान्छ)।"
-"यसका लागि तपाईँले (आंशिक) युआरएल दिनु पर्दछ।"
 
 #. Type: string
 #. Description
@@ -119,13 +88,6 @@ msgid ""
 "  floppy://preseed.cfg\n"
 "  file:///hd-media/kiosk/./preseed.cfg"
 msgstr ""
-"जसका लागि तपाईँले स्वचालित फाइलहरू अवस्थित कम्प्युटरको पूर्ण युआरएल दिन सक्नु हुन्छ।"
-"उदाहरणका लागि तलका कुनै पनि लिन सकिन्छ:\n"
-"intra.example.com\n"
-" http://intra.example.com/d-i/./lenny/preseed.cfg\n"
-" http://192.168.0.1/~phil/test47.txt\n"
-" floppy://preseed.cfg\n"
-" file:///hd-media/kiosk/./preseed.cfg"
 
 #. Type: string
 #. Description
@@ -135,9 +97,6 @@ msgid ""
 "For fully automated installs, preseed/url should itself be preseeded (via "
 "kernel command line, DHCP, or syslinux.cfg on customised media)"
 msgstr ""
-"पूर्ण स्वचालित स्थापनाका लागि स्वचालित स्थापना/युआर्‌एल् आफैं नै स्वचालित हुनु पर्दछ(कर्नेल "
-"कमाण्ड लाइन मार्फत, डीएचसीपीका माध्ययमद्वारा वा परिस्कृत मेडियामा syslinux.cfgको "
-"प्रयोगबाट)"
 
 #. Type: string
 #. Description
@@ -145,11 +104,10 @@ msgstr ""
 #: ../network-preseed.templates:2001
 msgid "See http://wiki.debian.org/DebianInstaller/Preseed for inspiration."
 msgstr ""
-"थप जानकारीका लागि http://wiki.debian.org/DebianInstaller/Preseed हेर्नुहोस्।"
 
 #. Type: text
 #. Description
 #. Main menu item
 #: ../file-preseed.templates:1001
 msgid "Load debconf preconfiguration file"
-msgstr "debconf पूर्वकन्फिगरेसन फाइल लोड गर्नुहोस"
+msgstr ""
