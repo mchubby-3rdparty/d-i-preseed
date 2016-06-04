@@ -3,54 +3,12 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of bg.po to Bulgarian
-# Bulgarian messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-#
-#
-# Translations from iso-codes:
-#     Translations taken from ICU SVN on 2007-09-09
-# Copyright (C)
-#   (translations from drakfw)
-#   - further translations from ICU-3.9
-# Translation of ISO 639 (language names) to Bulgarian
-# Copyright (C) 2010 Free Software Foundation, Inc.
-#
-# Copyright (C)
-#
-# Ognyan Kulev <ogi@fmi.uni-sofia.bg>, 2004, 2005, 2006.
-# Nikola Antonov <nikola@linux-bg.org>, 2004.
-#   Tobias Quathamer <toddy@debian.org>, 2007.
-#   Free Software Foundation, Inc., 2004.
-#   Georgi Georgiev <assenov_g@operamail.com>, 2001, 2004.
-#   Alastair McKinstry <mckinstry@computer.org>, 2001.
-#   Ognyan Kulev <ogi@fmi.uni-sofia.bg>, 2004.
-#   Damyan Ivanov <dmn@debian.org>, 2006, 2007, 2008, 2009, 2010.
-#   Roumen Petrov <transl@roumenpetrov.info>, 2010.
-# Damyan Ivanov <dmn@debian.org>, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015.
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: bg\n"
-"Report-Msgid-Bugs-To: preseed@packages.debian.org\n"
-"POT-Creation-Date: 2011-01-30 18:05+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Bulgarian <dict@ludost.net>\n"
-"Language: bg\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-
 #. Type: error
 #. Description
 #. :sl2:
 #: ../preseed-common.templates:1001
 msgid "Failed to retrieve the preconfiguration file"
-msgstr "Грешка при доставяне на файла с предварителни настройки"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -60,15 +18,13 @@ msgid ""
 "The file needed for preconfiguration could not be retrieved from "
 "${LOCATION}. The installation will proceed in non-automated mode."
 msgstr ""
-"Файлът с предварителните настройки не може да бъде изтеглен от ${LOCATION}. "
-"Инсталацията ще продължи в неавтоматизиран режим."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../preseed-common.templates:2001
 msgid "Failed to process the preconfiguration file"
-msgstr "Грешка при зареждане на файла с предварителните настройки"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -78,15 +34,13 @@ msgid ""
 "The installer failed to process the preconfiguration file from ${LOCATION}. "
 "The file may be corrupt."
 msgstr ""
-"Инсталаторът не можа да зареди файла с предварителните настройки от "
-"${LOCATION}. Файлът може би е повреден."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../preseed-common.templates:10001
 msgid "Failed to run preseeded command"
-msgstr "Грешка при изпълнението на командата за предварителна настройка"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -95,22 +49,20 @@ msgstr "Грешка при изпълнението на командата з�
 msgid ""
 "Execution of preseeded command \"${COMMAND}\" failed with exit code ${CODE}."
 msgstr ""
-"Изпълнението на командата за предварителна настройка „${COMMAND}“ върна "
-"грешка с код ${CODE}."
 
 #. Type: text
 #. Description
 #. Main menu item
 #: ../network-preseed.templates:1001
 msgid "Download debconf preconfiguration file"
-msgstr "Изтегляне на файл с предварителни настройки"
+msgstr ""
 
 #. Type: string
 #. Description
 #. :sl3:
 #: ../network-preseed.templates:2001
 msgid "Location of initial preconfiguration file:"
-msgstr "Местоположение на файла с предварителни настройки:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -121,10 +73,6 @@ msgid ""
 "preconfiguration file (which can in turn pull in other files). To do that, "
 "you need to provide a (perhaps partial) URL."
 msgstr ""
-"За извършване на автоматична инсталация е необходимо предоставянето на файл "
-"с предварителни настройки (който може да съдържа препратки към други "
-"файлове). За целта е необходимо да предоставите (вероятно частичен) адрес на "
-"файла."
 
 #. Type: string
 #. Description
@@ -140,14 +88,6 @@ msgid ""
 "  floppy://preseed.cfg\n"
 "  file:///hd-media/kiosk/./preseed.cfg"
 msgstr ""
-"Стойността може да е просто име на машината, на която се съхраняват "
-"файловете с настройки, а може и да е пълен адрес. Например:\n"
-"  intra\t\t[тези три примера са еквивалентни за example.com]\n"
-"  intra.example.com\n"
-"  http://intra.example.com/d-i/.lenny/preseed.cfg\n"
-"  http://192.168.0.1/~phil/test47.txt\n"
-"  floppy://preseed.cfg\n"
-"  file:///hd-media/kiosk/./preseed.cfg"
 
 #. Type: string
 #. Description
@@ -157,9 +97,6 @@ msgid ""
 "For fully automated installs, preseed/url should itself be preseeded (via "
 "kernel command line, DHCP, or syslinux.cfg on customised media)"
 msgstr ""
-"За изцяло автоматично инсталиране е необходимо указването на адреса на файла "
-"с предварителни настройки (на командния ред на ядрото, чрез DHCP или файла "
-"syslinux.cfg на специализиран носител)"
 
 #. Type: string
 #. Description
@@ -167,12 +104,10 @@ msgstr ""
 #: ../network-preseed.templates:2001
 msgid "See http://wiki.debian.org/DebianInstaller/Preseed for inspiration."
 msgstr ""
-"Допълнителна информация има на страницата http://wiki.debian.org/"
-"DebianInstaller/Preseed ."
 
 #. Type: text
 #. Description
 #. Main menu item
 #: ../file-preseed.templates:1001
 msgid "Load debconf preconfiguration file"
-msgstr "Зареждане на файл с предварителни настройки"
+msgstr ""
