@@ -1,9 +1,9 @@
-preseed (1.72) UNRELEASED; urgency=medium
+preseed (1.72) unstable; urgency=medium
 
   * run preseed/early_command after env_preseed, so that one can again specify this on
     the kernel command line.
 
- -- Philip Hands <phil@hands.com>  Thu, 16 Jun 2016 12:10:51 +0200
+ -- Philip Hands <phil@hands.com>  Sun, 26 Jun 2016 16:54:23 +0200
 
 preseed (1.71) unstable; urgency=medium
 
