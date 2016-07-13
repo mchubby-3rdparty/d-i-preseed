@@ -23,8 +23,8 @@ msgstr ""
 "Project-Id-Version: be\n"
 "Report-Msgid-Bugs-To: preseed@packages.debian.org\n"
 "POT-Creation-Date: 2011-01-30 18:05+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2015-12-21 15:13+0300\n"
+"Last-Translator: Viktar Siarheichyk <vics@fsfe.org>\n"
 "Language-Team: Debian l10n team for Belarusian <debian-l10n-belarusian@lists."
 "debian.org>\n"
 "Language: be\n"
@@ -39,7 +39,7 @@ msgstr ""
 #. :sl2:
 #: ../preseed-common.templates:1001
 msgid "Failed to retrieve the preconfiguration file"
-msgstr ""
+msgstr "Не атрымалася здабыць файл папярэдніх наладак"
 
 #. Type: error
 #. Description
@@ -49,13 +49,15 @@ msgid ""
 "The file needed for preconfiguration could not be retrieved from "
 "${LOCATION}. The installation will proceed in non-automated mode."
 msgstr ""
+"Не атрымалася здабыць з ${LOCATION} файл, патрэбны, каб падрыхтаваць "
+"наладку. Устаноўка будзе працягнутая ў не-аўтаматычным рэжыме."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../preseed-common.templates:2001
 msgid "Failed to process the preconfiguration file"
-msgstr ""
+msgstr "Не атрымалася апрацаваць файл папярэдніх наладак"
 
 #. Type: error
 #. Description
@@ -65,13 +67,15 @@ msgid ""
 "The installer failed to process the preconfiguration file from ${LOCATION}. "
 "The file may be corrupt."
 msgstr ""
+"Праграма ўсталявання не здолела апрацаваць файл папярэдніх наладак з "
+"${LOCATION}. Магчыма, ён пашкоджаны."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../preseed-common.templates:10001
 msgid "Failed to run preseeded command"
-msgstr ""
+msgstr "Не атрымалася выканаць патрэбную каманду"
 
 #. Type: error
 #. Description
@@ -79,21 +83,21 @@ msgstr ""
 #: ../preseed-common.templates:10001
 msgid ""
 "Execution of preseeded command \"${COMMAND}\" failed with exit code ${CODE}."
-msgstr ""
+msgstr "Не атрымалася выканаць каманду \"${COMMAND}\" - код выхаду ${CODE}."
 
 #. Type: text
 #. Description
 #. Main menu item
 #: ../network-preseed.templates:1001
 msgid "Download debconf preconfiguration file"
-msgstr ""
+msgstr "Спампоўка файла папярэдніх наладак debconf"
 
 #. Type: string
 #. Description
 #. :sl3:
 #: ../network-preseed.templates:2001
 msgid "Location of initial preconfiguration file:"
-msgstr ""
+msgstr "Знаходжанне пачатковага файла наладак:"
 
 #. Type: string
 #. Description
@@ -104,6 +108,9 @@ msgid ""
 "preconfiguration file (which can in turn pull in other files). To do that, "
 "you need to provide a (perhaps partial) URL."
 msgstr ""
+"Каб правесці аўтаматычнае ўсталяванне, вам трэба ўвесці файл з інструкцыямі "
+"ўсталявання (які можа ўтрымліваць спасылкі на іншыя файлы). Для гэтага "
+"ўвядзіце (магчыма, частковы) URL."
 
 #. Type: string
 #. Description
@@ -119,6 +126,14 @@ msgid ""
 "  floppy://preseed.cfg\n"
 "  file:///hd-media/kiosk/./preseed.cfg"
 msgstr ""
+"Можа быць такім жа, як і назва машыны, дзе знаходзяцца preseed файлы. Нешта "
+"з наступнага можа быць ужыта:\n"
+"  intra\t\t[для example.com 3 прыклады аднолькавыя]\n"
+"  intra.example.com\n"
+"  http://intra.example.com/d-i/./lenny/preseed.cfg\n"
+"  http://192.168.0.1/~phil/test47.txt\n"
+"  floppy://preseed.cfg\n"
+"  file:///hd-media/kiosk/./preseed.cfg"
 
 #. Type: string
 #. Description
@@ -128,17 +143,19 @@ msgid ""
 "For fully automated installs, preseed/url should itself be preseeded (via "
 "kernel command line, DHCP, or syslinux.cfg on customised media)"
 msgstr ""
+"Для аўтаматызаванага ўсталявання preseed/url павінны быць пастаўлены (шляхам "
+"каманднага радка ядра, DHCP ці syslinux.cfg на змененым носьбіце)"
 
 #. Type: string
 #. Description
 #. :sl3:
 #: ../network-preseed.templates:2001
 msgid "See http://wiki.debian.org/DebianInstaller/Preseed for inspiration."
-msgstr ""
+msgstr "Глядзі http://wiki.debian.org/DebianInstaller/Preseed для натхнення."
 
 #. Type: text
 #. Description
 #. Main menu item
 #: ../file-preseed.templates:1001
 msgid "Load debconf preconfiguration file"
-msgstr ""
+msgstr "Загрузка файла папярэдніх наладак debconf"
