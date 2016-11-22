@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: preseed@packages.debian.org\n"
-"POT-Creation-Date: 2016-11-22 22:00+0000\n"
+"POT-Creation-Date: 2016-11-22 22:34+0000\n"
 "PO-Revision-Date: 2012-01-28 13:25+0100\n"
 "Last-Translator: Mikel González <mikelglez@softastur.org>\n"
 "Language-Team: Softastur\n"
@@ -30,14 +30,14 @@ msgstr ""
 
 #. Type: error
 #. Description
-#. :sl2:
+#. XXX: should be made translatable after Stretch
 #: ../preseed-common.templates:1001
 msgid "Checksum error"
 msgstr ""
 
 #. Type: error
 #. Description
-#. :sl2:
+#. XXX: should be made translatable after Stretch
 #: ../preseed-common.templates:1001
 msgid ""
 "The ${ALGORITHM} checksum of the file retrieved from <${LOCATION}> fails to "

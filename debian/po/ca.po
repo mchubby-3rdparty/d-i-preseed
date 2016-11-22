@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer wheezy\n"
 "Report-Msgid-Bugs-To: preseed@packages.debian.org\n"
-"POT-Creation-Date: 2016-11-22 22:00+0000\n"
+"POT-Creation-Date: 2016-11-22 22:34+0000\n"
 "PO-Revision-Date: 2012-10-18 18:34+0200\n"
 "Last-Translator: Jordi Mallach <jordi@debian.org>\n"
 "Language-Team: Catalan <debian-l10n-catalan@lists.debian.org>\n"
@@ -31,14 +31,14 @@ msgstr ""
 
 #. Type: error
 #. Description
-#. :sl2:
+#. XXX: should be made translatable after Stretch
 #: ../preseed-common.templates:1001
 msgid "Checksum error"
 msgstr ""
 
 #. Type: error
 #. Description
-#. :sl2:
+#. XXX: should be made translatable after Stretch
 #: ../preseed-common.templates:1001
 msgid ""
 "The ${ALGORITHM} checksum of the file retrieved from <${LOCATION}> fails to "
