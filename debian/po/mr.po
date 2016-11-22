@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: preseed@packages.debian.org\n"
-"POT-Creation-Date: 2011-01-30 18:05+0000\n"
+"POT-Creation-Date: 2016-11-22 22:00+0000\n"
 "PO-Revision-Date: 2011-03-05 22:52+0530\n"
 "Last-Translator: sampada <sampadanakhare@gmail.com>\n"
 "Language-Team: Marathi, janabhaaratii, C-DAC, Mumbai, India "
@@ -30,13 +30,30 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../preseed-common.templates:1001
+msgid "Checksum error"
+msgstr ""
+
+#. Type: error
+#. Description
+#. :sl2:
+#: ../preseed-common.templates:1001
+msgid ""
+"The ${ALGORITHM} checksum of the file retrieved from <${LOCATION}> fails to "
+"match the expected value of \"${CHECKSUM}\".  The file may be corrupt, or "
+"the provided checksums may be out of date."
+msgstr ""
+
+#. Type: error
+#. Description
+#. :sl2:
+#: ../preseed-common.templates:2001
 msgid "Failed to retrieve the preconfiguration file"
 msgstr "पूर्वसंरचना फाईल प्राप्त करण्यात अपयश"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../preseed-common.templates:1001
+#: ../preseed-common.templates:2001
 msgid ""
 "The file needed for preconfiguration could not be retrieved from "
 "${LOCATION}. The installation will proceed in non-automated mode."
@@ -47,14 +64,14 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../preseed-common.templates:2001
+#: ../preseed-common.templates:3001
 msgid "Failed to process the preconfiguration file"
 msgstr "पूर्वसंरचना फाईलवर प्रक्रिया करणे अयशस्वी"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../preseed-common.templates:2001
+#: ../preseed-common.templates:3001
 msgid ""
 "The installer failed to process the preconfiguration file from ${LOCATION}. "
 "The file may be corrupt."
@@ -65,14 +82,14 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../preseed-common.templates:10001
+#: ../preseed-common.templates:12001
 msgid "Failed to run preseeded command"
 msgstr "पूर्वबीज आज्ञा वापरताना अपयश"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../preseed-common.templates:10001
+#: ../preseed-common.templates:12001
 msgid ""
 "Execution of preseeded command \"${COMMAND}\" failed with exit code ${CODE}."
 msgstr "\"${COMMAND}\" ही पुर्वबीज आज्ञा कार्यान्वयीत करतांना ${CODE} ही त्रुटी आली."
