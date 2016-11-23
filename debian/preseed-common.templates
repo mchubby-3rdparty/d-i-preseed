@@ -1,5 +1,7 @@
 Template: preseed/checksum_error
 Type: error
+# Translators : DO NOT TRANSLATE variable names : ALGORITHM, LOCATION
+# and CHECKSUM
 # :sl2:
 _Description: Checksum error
  The ${ALGORITHM} checksum of the file retrieved from <${LOCATION}> fails
