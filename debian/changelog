@@ -1,10 +1,10 @@
-preseed (1.73) UNRELEASED; urgency=medium
+preseed (1.73) unstable; urgency=medium
 
   * make preseed_fetch pass all it's params onto fetch-url
     which allows one to add the new optional checksum as 3rd param
   * Update auto-install/defaultroot for stretch. (closes: 845326)
 
- -- Philip Hands <phil@hands.com>  Tue, 01 Nov 2016 08:36:12 +0100
+ -- Philip Hands <phil@hands.com>  Thu, 24 Nov 2016 13:15:11 +0100
 
 preseed (1.72) unstable; urgency=medium
 
