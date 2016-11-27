@@ -27,13 +27,13 @@
 #      Jakub Bogusz <qboosh@pld-linux.org>, 2007-2011.
 #      Tomasz Z. Napierala <zen@debian.linux.org.pl>, 2004, 2006.
 # Marcin Owsiany <porridge@debian.org>, 2011.
-# Michał Kułach <michal.kulach@gmail.com>, 2012, 2013.
+# Michał Kułach <michal.kulach@gmail.com>, 2012, 2013, 2014, 2015, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: preseed@packages.debian.org\n"
 "POT-Creation-Date: 2016-11-22 22:34+0000\n"
-"PO-Revision-Date: 2011-09-26 10:46+0100\n"
+"PO-Revision-Date: 2016-11-27 17:57+0100\n"
 "Last-Translator: Michał Kułach <michal.kulach@gmail.com>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
 "Language: pl\n"
@@ -48,7 +48,7 @@ msgstr ""
 #. XXX: should be made translatable after Stretch
 #: ../preseed-common.templates:1001
 msgid "Checksum error"
-msgstr ""
+msgstr "Niezgodność sumy kontrolnej"
 
 #. Type: error
 #. Description
@@ -59,6 +59,9 @@ msgid ""
 "match the expected value of \"${CHECKSUM}\".  The file may be corrupt, or "
 "the provided checksums may be out of date."
 msgstr ""
+"Suma kontrolna ${ALGORITHM} pliku pobranego z <${LOCATION}> nie pasuje do "
+"oczekiwanej wartości \"${CHECKSUM}\". Plik może być uszkodzony lub też suma "
+"kontrolna jest nieaktualna."
 
 #. Type: error
 #. Description
