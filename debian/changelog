@@ -1,3 +1,11 @@
+preseed (1.74) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Polish (pl.po) by Michał Kułach
+  * Portuguese (pt.po) by Miguel Figueiredo
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 02 Dec 2016 08:15:04 +0100
+
 preseed (1.73) unstable; urgency=medium
 
   * make preseed_fetch pass all it's params onto fetch-url
