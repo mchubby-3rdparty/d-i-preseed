@@ -7,12 +7,19 @@
 # Copyright (C) 2003 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
 #
+# Translations from iso-codes:
+#   Alastair McKinstry <mckinstry@computer.org>, 2001.
+#   Free Software Foundation, 2002,2004 
+#   Miroslav Kure <kurem@debian.cz>, 2004--2010.
+#   Petr Cech <cech@debian.org> (Petr Čech), 2000.
+#   Stanislav Brabec <utx@penguin.cz>, 2001.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: preseed@packages.debian.org\n"
 "POT-Creation-Date: 2016-11-22 22:34+0000\n"
-"PO-Revision-Date: 2011-02-20 19:50+0100\n"
+"PO-Revision-Date: 2016-12-12 16:48+0100\n"
 "Last-Translator:  Miroslav Kure <kurem@debian.cz>\n"
 "Language-Team:  Czech <provoz@debian.cz>\n"
 "Language: cs\n"
@@ -25,7 +32,7 @@ msgstr ""
 #. XXX: should be made translatable after Stretch
 #: ../preseed-common.templates:1001
 msgid "Checksum error"
-msgstr ""
+msgstr "Chyba kontrolního součtu"
 
 #. Type: error
 #. Description
@@ -36,6 +43,9 @@ msgid ""
 "match the expected value of \"${CHECKSUM}\".  The file may be corrupt, or "
 "the provided checksums may be out of date."
 msgstr ""
+"Kontrolní ${ALGORITHM} součet souboru staženého z <${LOCATION}> neodpovídá "
+"očekávané hodnotě „${CHECKSUM}“. Soubor může být porušený, nebo mohou být "
+"zastaralé poskytnuté kontrolní součty."
 
 #. Type: error
 #. Description
