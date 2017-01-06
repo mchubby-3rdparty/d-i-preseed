@@ -1,3 +1,10 @@
+preseed (1.78) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Slovak (sk.po) by Ivan Masár
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 06 Jan 2017 13:27:03 +0100
+
 preseed (1.77) unstable; urgency=medium
 
   [ Updated translations ]
