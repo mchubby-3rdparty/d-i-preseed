@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: preseed@packages.debian.org\n"
 "POT-Creation-Date: 2016-11-22 22:34+0000\n"
-"PO-Revision-Date: 2015-06-30 01:49+0200\n"
+"PO-Revision-Date: 2017-01-30 17:04+0300\n"
 "Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
 "Language-Team: Debian L10N Turkish\n"
 "Language: tr\n"
@@ -43,7 +43,7 @@ msgstr ""
 #. XXX: should be made translatable after Stretch
 #: ../preseed-common.templates:1001
 msgid "Checksum error"
-msgstr ""
+msgstr "Sağlama toplamı hatası"
 
 #. Type: error
 #. Description
@@ -54,6 +54,9 @@ msgid ""
 "match the expected value of \"${CHECKSUM}\".  The file may be corrupt, or "
 "the provided checksums may be out of date."
 msgstr ""
+"<${LOCATION}> konumundan indirilen dosyanın ${ALGORITHM} sağlama toplamı, "
+"beklenen değer olan \"${CHECKSUM}\" ile eşleşmiyor. Bu duruma dosyanın bozuk "
+"olması veya verilen sağlama toplamlarının eski olması neden olabilir."
 
 #. Type: error
 #. Description
