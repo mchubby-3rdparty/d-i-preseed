@@ -17,13 +17,13 @@
 # Alexander Nyakhaychyk <nyakhaychyk@gmail.com>, 2009.
 # Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2007, 2010.
 # Viktar Siarheichyk <viсs@eq.by>, 2014.
-# Viktar Siarheichyk <vics@fsfe.org>, 2014, 2015.
+# Viktar Siarheichyk <vics@fsfe.org>, 2014, 2015, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: be\n"
 "Report-Msgid-Bugs-To: preseed@packages.debian.org\n"
 "POT-Creation-Date: 2016-11-22 22:34+0000\n"
-"PO-Revision-Date: 2015-12-21 15:13+0300\n"
+"PO-Revision-Date: 2017-03-01 16:35+0300\n"
 "Last-Translator: Viktar Siarheichyk <vics@fsfe.org>\n"
 "Language-Team: Debian l10n team for Belarusian <debian-l10n-belarusian@lists."
 "debian.org>\n"
@@ -39,7 +39,7 @@ msgstr ""
 #. XXX: should be made translatable after Stretch
 #: ../preseed-common.templates:1001
 msgid "Checksum error"
-msgstr ""
+msgstr "Памылка кантрольнай сумы"
 
 #. Type: error
 #. Description
@@ -50,6 +50,9 @@ msgid ""
 "match the expected value of \"${CHECKSUM}\".  The file may be corrupt, or "
 "the provided checksums may be out of date."
 msgstr ""
+"Кантрольная сума ${ALGORITHM} файла атрыманая з <${LOCATION}> не супадае з "
+"чаканай \"${CHECKSUM}\". Гэты файл можа быць сапсаваны альбо кантрольныя "
+"сумы састарэлыя."
 
 #. Type: error
 #. Description
