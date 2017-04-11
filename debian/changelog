@@ -1,3 +1,10 @@
+preseed (1.85) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Croatian (hr.po) by Valentin Vidic
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 11 Apr 2017 08:20:21 +0200
+
 preseed (1.84) unstable; urgency=medium
 
   [ Updated translations ]
